@@ -38,7 +38,10 @@ struct ContentView: View {
                             .foregroundColor(.black)
                     }
                 }
+                Text("Select Sandwiches")
+                    .font(.largeTitle)
             }
+            
         }
     }
     
