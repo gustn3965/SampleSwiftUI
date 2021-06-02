@@ -13,6 +13,12 @@
 		DB52B1422667B020002946EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52B12D2667B01F002946EE /* ContentView.swift */; };
 		DB52B1432667B020002946EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB52B12E2667B020002946EE /* Assets.xcassets */; };
 		DB52B1442667B020002946EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB52B12E2667B020002946EE /* Assets.xcassets */; };
+		DB52B1542667B10C002946EE /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52B1532667B10C002946EE /* Sandwich.swift */; };
+		DB52B1552667B10C002946EE /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52B1532667B10C002946EE /* Sandwich.swift */; };
+		DB52B1572667B777002946EE /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52B1562667B777002946EE /* SandwichDetail.swift */; };
+		DB52B1582667B777002946EE /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52B1562667B777002946EE /* SandwichDetail.swift */; };
+		DB52B15A2667BD3E002946EE /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52B1592667BD3E002946EE /* SandwichStore.swift */; };
+		DB52B15B2667BD3E002946EE /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52B1592667BD3E002946EE /* SandwichStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,9 @@
 		DB52B13B2667B020002946EE /* SampleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB52B13D2667B020002946EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB52B13E2667B020002946EE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DB52B1532667B10C002946EE /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		DB52B1562667B777002946EE /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
+		DB52B1592667BD3E002946EE /* SandwichStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +66,11 @@
 		DB52B12B2667B01F002946EE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				DB52B1532667B10C002946EE /* Sandwich.swift */,
 				DB52B12C2667B01F002946EE /* SampleSwiftUIApp.swift */,
 				DB52B12D2667B01F002946EE /* ContentView.swift */,
+				DB52B1592667BD3E002946EE /* SandwichStore.swift */,
+				DB52B1562667B777002946EE /* SandwichDetail.swift */,
 				DB52B12E2667B020002946EE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,8 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB52B15A2667BD3E002946EE /* SandwichStore.swift in Sources */,
 				DB52B1412667B020002946EE /* ContentView.swift in Sources */,
 				DB52B13F2667B020002946EE /* SampleSwiftUIApp.swift in Sources */,
+				DB52B1542667B10C002946EE /* Sandwich.swift in Sources */,
+				DB52B1572667B777002946EE /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB52B15B2667BD3E002946EE /* SandwichStore.swift in Sources */,
 				DB52B1422667B020002946EE /* ContentView.swift in Sources */,
 				DB52B1402667B020002946EE /* SampleSwiftUIApp.swift in Sources */,
+				DB52B1552667B10C002946EE /* Sandwich.swift in Sources */,
+				DB52B1582667B777002946EE /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
