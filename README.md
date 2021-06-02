@@ -1,7 +1,7 @@
 # Purpose 
 This is copy demo referring [Introduction to SwiftUI - WWDC  ](https://developer.apple.com/videos/play/wwdc2020/10119/)
 
-[sandwich](source/sandwich.gif)
+![sandwich](source/sandwich.gif)
 
 
 ### using... 
